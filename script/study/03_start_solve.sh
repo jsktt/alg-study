@@ -11,8 +11,6 @@ echo "  예시: 1-1/1260"
 echo "=================================================="
 echo ""
 
-
-
 # main 브랜치 여부 확인
 CURRENT_BRANCH=$(git branch --show-current)
 if [[ "$CURRENT_BRANCH" != "main" ]]; then
